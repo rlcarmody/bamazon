@@ -16,7 +16,6 @@ const fetchProducts = () => {
                 console.log('\n')
                 console.table(results);
                 resolve();
-                // promptCustomer();
             }
         )
     })
@@ -49,11 +48,9 @@ const promptCustomer = () => {
         const item = parseInt(answers.ID);
         const quantity = parseInt(answers.quantity);
         purchaseItem(item, quantity)
-        // fetchProducts();
     })
 }
 
-// fetchProducts();
 
 const purchaseItem = (product, quantity) => {
     conn.query(
