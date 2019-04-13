@@ -34,7 +34,7 @@ Queries the products table for all entries with less than 5 on-hands and display
 
 The manager can add to the available inventory of a single item. The stock_quantity column is updated with the existing value plus the additional quantities
 
-![Add Inventory](./images/manager-addinventory.JPG)
+![Add Inventory](./images/manager-addInventory.JPG)
 
 ### Add New Product
 
